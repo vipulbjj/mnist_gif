@@ -59,7 +59,7 @@ def create_frame(background, overlay,start,motion, iteration):#most imp fn---eve
 	start_step[0] = start_step[0] + iteration*motion[1]
 	start_step[1] = start_step[1] + iteration*motion[0]
 	#NU properly next line
-	print(start_step[0])
+	#print(start_step[0])
 	background[start_step[0]:start_step[0]+28,start_step[1]:start_step[1]+28,0] = (background[start_step[0]:start_step[0]+28,start_step[1]:start_step[1]+28,0] + overlay)
 	return background
 
